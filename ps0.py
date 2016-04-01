@@ -18,7 +18,7 @@ def is_even(number):
 """ Function 1 """
 def num_digits(number):
 
-	''' Takes a non-negative integer as a parameter and returns the sum of its digits. '''
+	''' Takes a non-negative integer as a parameter and returns the number of its digits. '''
 	
 	count = 0 
 	
