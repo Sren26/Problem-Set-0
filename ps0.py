@@ -3,7 +3,7 @@
 
 # Functions for each purpose below
 
-""" Function 0 """
+# Function 0
 def is_even(number):
 
 	''' Takes an integer as a parameter and returns True if the number is even, False if it is odd. ''' 
@@ -15,7 +15,7 @@ def is_even(number):
 		return "Odd" 
 	
 
-""" Function 1 """
+# Function 1
 def num_digits(number):
 
 	''' Takes a non-negative integer as a parameter and returns the number of its digits. '''
@@ -29,7 +29,7 @@ def num_digits(number):
 	return count 
 
 
-""" Function 2 """
+# Function 2
 def sum_digits(number):
 	
 	''' Takes a non-negative integer as a parameter and returns the sum of its digits. '''
@@ -42,7 +42,7 @@ def sum_digits(number):
 	return sum 
 	
 
-""" Function 3 """
+# Function 3
 def sum_less_ints(number):
 
 	''' Takes a non-negative integer as a parameter 
@@ -58,7 +58,7 @@ def sum_less_ints(number):
 	return sum(intList)
 	
 
-""" Function 4 """
+# Function 4
 def factorial(number):
 
 	''' Takes a non-negative integer as a parameter and returns its factorial. '''
@@ -80,7 +80,7 @@ def factorial(number):
 		return product 
 	
 	
-""" Function 5 """
+# Function 5
 def is_factor(number1,number2):
 
 	''' Takes two positive integers and finds out whether
@@ -95,7 +95,7 @@ def is_factor(number1,number2):
 			return False
 			
 
-""" Function 6 """
+# Function 6
 def is_prime(number):
 
 	''' Takes an integer greater than or equal to 2 and returns 
@@ -116,7 +116,7 @@ def is_prime(number):
 			return True
 	
 		
-""" Function 7 """
+# Function 7
 def is_perfect(number):
 
 	''' Takes a positive integer and returns whether the number is perfect. '''
@@ -136,7 +136,7 @@ def is_perfect(number):
 			return False
 
 
-""" Function 8 """
+# Function 8
 def divisble_by_sum_digits(number): 
 
 	''' Takes a positive integer and returns true if the sum of the digits
